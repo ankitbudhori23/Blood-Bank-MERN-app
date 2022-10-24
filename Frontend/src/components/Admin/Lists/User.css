@@ -1,0 +1,38 @@
+table,
+th,
+td {
+  border: 4px solid white;
+  border-collapse: collapse;
+  padding: 10px;
+  margin: auto;
+}
+th,
+td {
+  background-color: #96d4d4;
+}
+.delete_tb {
+  background-color: rgb(247, 166, 166);
+}
+.delete_tb:hover {
+  background-color: rgba(243, 0, 0, 0.774);
+  cursor: pointer;
+  color: white;
+}
+.edit_tb {
+  background-color: rgb(185, 247, 166);
+}
+.edit_tb:hover {
+  background-color: rgba(40, 177, 28, 0.767);
+  cursor: pointer;
+  color: white;
+}
+.epopup {
+  background-color: #b3b1ad;
+  width: 200px;
+  height: 100px;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
